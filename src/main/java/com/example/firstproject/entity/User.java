@@ -5,7 +5,7 @@ import lombok.*;
 import javax.persistence.*;
 import java.util.Set;
 
-@Entity
+@Entity //db 테이블과 1:1로 매핑
 @Table(name = "user")
 @Getter
 @Setter
